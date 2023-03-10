@@ -2,6 +2,7 @@
 
 ## Goal
 This demo will tell you how to use imerr, it is a command-line interface (CLI) timer that allows users to set a specific amount of time for a task or activity. Once the timer is started, imerr runs silently in the background and sends desktop notifications when the timer is up. This can be particularly helpful for users who want to focus on a task and need a reminder when their time is up.
+<img width="570" alt="Screen Shot 2023-03-10 at 4 56 27 PM" src="https://user-images.githubusercontent.com/112274822/224435967-55ced4cf-0e13-47fe-87e8-07de56752227.png">
 
 In addition to setting a specific amount of time, imerr also allows users to extend the timer if they need more time to complete their task. This can be done by typing a simple command in the terminal window where imerr is running. One of the benefits of using imerr is that it is lightweight and does not require a graphical user interface (GUI) like many other timer applications. This means that it can be used on servers or in other situations where a GUI is not available. Overall, imerr is a simple and effective tool for anyone who needs to track their time and wants to receive notifications when their timer is up. Its ease of use and customizable options make it a valuable tool for productivity and time management.
 
@@ -39,3 +40,7 @@ Here are some suggestions on how to implement the features you mentioned for tim
 4. Default icon & sound via config file: Finally, it would be useful to allow users to set default values for the icon and sound of the notification via a configuration file. This would allow users to customize the appearance and behavior of timerr without having to specify command-line flags every time they set a timer.
 
 Implementing these features will make timerr more flexible and customizable for different use cases.
+
+### Reference
+https://github.com/GiorgiBeriashvili/cli-timer
+https://github.com/regalk13/rust-timer
