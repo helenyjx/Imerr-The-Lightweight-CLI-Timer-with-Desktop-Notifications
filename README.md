@@ -43,5 +43,5 @@ Here are some suggestions on how to implement the features you mentioned for tim
 Implementing these features will make timerr more flexible and customizable for different use cases.
 
 ### Reference
-https://github.com/GiorgiBeriashvili/cli-timer
-https://github.com/regalk13/rust-timer
+* https://github.com/GiorgiBeriashvili/cli-timer
+* https://github.com/regalk13/rust-timer
