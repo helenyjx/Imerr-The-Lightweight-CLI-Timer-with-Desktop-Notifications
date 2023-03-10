@@ -30,12 +30,12 @@ It's important to note that timerr relies on a notification daemon to display th
 ## Enhancing timerr:
 Here are some suggestions on how to implement the features you mentioned for timerr:
 
-1. Support duration suffixes: To support suffixes like "s" for seconds, "m" for minutes, and "hr" for hours, you can use a regular expression to extract the duration value and suffix from the command-line argument. Then, you can convert the duration to seconds based on the suffix and pass it to the timer function.
+1. Support duration suffixes: It would be helpful to allow users to set the duration of a timer using suffixes like "s" for seconds, "m" for minutes, and "h" for hours. For example, a user could set a timer for 30 seconds with the command `timerr 30s "Task complete"`. Similarly, a timer for 1.5 hours could be set with the command `timerr 1.5h "Meeting over"`.
 
-2. Support am/pm times: To support am/pm times, you can use a regular expression to extract the hour and minute values from the command-line argument, as well as the am/pm suffix. Then, you can convert the hour to 24-hour format and calculate the total seconds until the specified time.
+2. Support am/pm times: In addition to specifying times using the 24-hour clock, it would be useful to allow users to set timers using the am/pm format. For example, a user could set a timer for 3:30 PM with the command `timerr 3:30pm "Meeting starts in 30 minutes"`.
 
-3. Optional body text, icon, and sound via CLI flags: To allow users to specify a custom notification body text, icon, and sound via CLI flags, you can add optional arguments to the timerr command-line interface. You can use a Rust library like clap to define the flags and parse them into a struct that contains the notification options.
+3. Optional body text, icon, & sound via CLI flags: Currently, timerr only allows users to specify the title of the desktop notification. It would be helpful to allow users to also specify the body text, icon, and sound of the notification using command-line flags. For example, a user could set a timer with a custom sound using the command `timerr 10 "Task complete" --sound my-sound.wav`.
 
-4. Default icon and sound via config file: To allow users to set default notification icon and sound preferences, you can add a configuration file that timerr reads at startup. The configuration file can be in TOML or YAML format, and can contain key-value pairs for the default icon and sound file paths. You can use a Rust library like serde to deserialize the configuration file into a struct that timerr can use to set the default notification options.
+4. Default icon & sound via config file: Finally, it would be useful to allow users to set default values for the icon and sound of the notification via a configuration file. This would allow users to customize the appearance and behavior of timerr without having to specify command-line flags every time they set a timer.
 
 Implementing these features will make timerr more flexible and customizable for different use cases.
