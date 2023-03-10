@@ -1,0 +1,11 @@
+[package]
+name = "cli-timer"
+version = "0.1.0"
+authors = ["Jiaxin Ying"]
+edition = "2023"
+
+[dependencies]
+chrono = "0.4.6"
+nix = "0.10.0"
+notify-rust = "3.5.0"
+time = "0.1.40"
