@@ -21,9 +21,9 @@ Building and installing a Rust application:
 ## Usage
 After installing timerr using the instructions you provided, you can use it to set a timer for a specific duration or time. Here's some examples:
 
-1. `timerr 45 "Laundry is done"`: This command sets a timer for 45 minutes and sends a desktop notification with the title "Laundry is done" when the timer is up.
+1. `timerr 25 "Laundry is done"`: This command sets a timer for 25 minutes and sends a desktop notification with the title "Laundry is done" when the timer is up.
 
-2. `timerr 15:45 "Meeting in 15 minutes"`: This command sets a timer for 3:45 PM and sends a desktop notification with the title "Meeting in 15 minutes" when the timer is up.
+2. `timerr 10:15 "Meeting in 15 minutes"`: This command sets a timer for 10:15 PM and sends a desktop notification with the title "Meeting in 15 minutes" when the timer is up.
 
 3. `timerr 15 Grab pizza from oven`: This command sets a timer for 15 minutes and sends a desktop notification with the title "Grab pizza from oven" when the timer is up. Note that in this case, the notification title does not need to be quoted.
 
