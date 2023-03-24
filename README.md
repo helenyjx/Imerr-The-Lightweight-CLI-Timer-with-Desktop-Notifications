@@ -1,4 +1,4 @@
-# Jiaxin-week9-mini-repo
+# Jiaxin-week10-mini-repo
 
 ## Goal
 This demo will tell you how to use imerr, it is a command-line interface (CLI) timer that allows users to set a specific amount of time for a task or activity. Once the timer is started, imerr runs silently in the background and sends desktop notifications when the timer is up. This can be particularly helpful for users who want to focus on a task and need a reminder when their time is up.
